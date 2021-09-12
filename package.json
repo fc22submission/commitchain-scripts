@@ -1,0 +1,41 @@
+{
+  "name": "@hidden/hidden",
+  "version": "0.1.0",
+  "description": "anonymous",
+  "author": "someone <somewhere@gmail.com>",
+  "homepage": "https://github.com/anon",
+  "license": "ISC",
+  "types": "lib/index",
+  "main": "lib/index",
+  "directories": {
+    "lib": "build",
+    "test": "__tests__"
+  },
+  "files": [
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anon/hidden.git"
+  },
+  "scripts": {
+    "execute": "ts-node src/ts/index.ts"
+  },
+  "bugs": {
+    "url": "https://github.com/anon/hidden/issues"
+  },
+  "dependencies": {
+    "cross-fetch": "^3.1.4",
+    "ethers": "^5.4.4",
+    "fetch": "^1.1.0",
+    "node-fetch": "^2.6.1",
+    "request-promise-native": "^1.0.8",
+    "zksync": "^0.11.3"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.4",
+    "@types/request-promise-native": "^1.0.17",
+    "typechain": "1.0.3",
+    "typechain-target-ethers": "^1.0.3"
+  }
+}
